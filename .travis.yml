@@ -4,8 +4,7 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   local_dir: dist
-  fqdn: asyncjs.com
   on:
-    branch: master
+    branch: rebrand
 env:
   - GA_KEY="UA-2150808-14"
